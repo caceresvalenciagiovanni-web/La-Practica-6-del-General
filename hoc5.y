@@ -158,13 +158,13 @@ int follow(int expect, int ifyes, int ifno);
 
 int main(int argc, char **argv) {
     progname = argv[0];
-    printf("---------------------------------------------------------------------------\n");
-    printf("                           CALCULADORA VECTORIAL HOC5\n");
-    printf("---------------------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------------------------------------------\n");
+    printf("                                        CALCULADORA VECTORIAL HOC5\n");
+    printf("--------------------------------------------------------------------------------------------------\n");
     printf("Suma(+) Resta(-) Magnitud(| |) Prod.Cruz(X) Prod.Punto(@) Escalar(*)\n");
-    printf("Uso de if y while: if (cond) { ... } else { ... } | while (cond) { ... }\n");
+    printf("Uso de if, for y while: if (cond) { ... } else { ... } | while (cond) { ... } | for (cond) { ... }\n");
     printf("Escribe un vector, por ejemplo: variable = [PI, E, sin(PI/2)]\n");
-    printf("---------------------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------------------------------------------\n");
 
     init();
     setjmp(begin);
